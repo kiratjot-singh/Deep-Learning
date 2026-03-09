@@ -1,3 +1,4 @@
+import numpy as np
 class MLP:
     def __init__(self,hidden_size,lr=0.01,epochs=1000):
         self.w1=None
